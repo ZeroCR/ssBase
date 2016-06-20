@@ -3,12 +3,13 @@
         "module": "commonjs",
         "sourceMap": true,
         "target": "es6",
-        "outDir": "build"
+        "outDir": "build",
+        "allowJs": true
     },
     "exclude": [
         "node_modules",
         "build",
-        "typings/main.d.ts",
-        "typings/main"
+        "typings",
+        ".eslintrc.js"
     ]
 }
