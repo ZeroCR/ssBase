@@ -27,9 +27,9 @@
       "request": "attach",
       "port": 5858,
       "address": "localhost",
-      "restart": false,
+      "restart": true,
       "sourceMaps": true,
-      "outDir": null,
+      "outDir": "${workspaceRoot}/build",
       "localRoot": "${workspaceRoot}",
       "remoteRoot": null
     }

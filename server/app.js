@@ -25,7 +25,6 @@ if (env === 'development') {
 // require('./config/express')(app);
 require('./routes')(app);
 
-
 app.listen(3000, function () {
 	console.log('Demo Express server listening on port %d in %s mode', 3000, app.settings.env);
 });
