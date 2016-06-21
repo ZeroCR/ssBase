@@ -1,15 +1,16 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "allowJs": true,
-        "sourceMap": true,
         "target": "es6",
-        "outDir": "build"
+        "allowJs": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "build",
+        "sourceMap": true
     },
     "exclude": [
         "node_modules",
-        "build",
-        "typings",
-        ".eslintrc.js"
+        "typings"
     ]
 }

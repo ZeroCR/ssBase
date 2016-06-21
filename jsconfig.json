@@ -10,8 +10,7 @@
 		"node_modules",
 		"bower_components",
 		"jspm_packages",
-		"build",
-		"temp",
-        "build"
+		"tmp",
+		"temp"
 	]
 }

@@ -1,5 +1,3 @@
-const http = require('http');
-const url = require('url');
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
@@ -23,7 +21,7 @@ if (env === 'development') {
 
 // Routes
 // require('./config/express')(app);
-require('./routes')(app);
+require('./api/routes')(app);
 
 app.listen(3000, function () {
 	console.log('Demo Express server listening on port %d in %s mode', 3000, app.settings.env);
